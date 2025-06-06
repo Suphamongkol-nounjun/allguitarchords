@@ -5089,6 +5089,11 @@
             "fret": 8,
             "string": 4,
             "label": "2"
+          },
+          {
+            "fret": 8,
+            "string": 6,
+            "label": "T"
           }
         ],
         "mutedStrings": [
@@ -6604,6 +6609,11 @@
             "label": "1"
           },
           {
+            "fret": 8,
+            "string": 6,
+            "label": "T"
+          },
+          {
             "fret": 9,
             "string": 2,
             "label": "3"
@@ -6778,6 +6788,11 @@
             "fret": 8,
             "string": 4,
             "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 6,
+            "label": "T"
           },
           {
             "fret": 9,
