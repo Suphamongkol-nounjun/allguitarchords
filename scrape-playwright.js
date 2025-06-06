@@ -25,36 +25,32 @@ async function scrapeSpecificChord(page, targetRootNote, targetChordType) {
     return { key: `${targetRootNote}_${targetChordType.replace(/\s+/g, '')}`, data: [], error: `Root Note "${targetRootNote}" not clickable or found.` };
   }
 
-  // --- ขั้นตอนที่ 2: คลิกเลือกปุ่ม Chord Type ---
+ // --- ขั้นตอนที่ 2: คลิกเลือกปุ่ม Chord Type ---
   console.log(`(ภายใน scrapeSpecificChord) กำลังเลือก Chord Type: ${targetChordType}`);
   try {
     const chordTypeButtonLocator = page.getByRole('button', { name: targetChordType, exact: true });
     await chordTypeButtonLocator.waitFor({ state: 'visible', timeout: 15000 });
     currentSelectedChordTypeName = (await chordTypeButtonLocator.textContent()).trim();
     console.log(`(ภายใน scrapeSpecificChord) พบปุ่ม "${currentSelectedChordTypeName}", กำลังพยายามคลิก...`);
-    await chordTypeButtonLocator.scrollIntoViewIfNeeded();
-    await chordTypeButtonLocator.click();
-    // **แก้ไข: เพิ่มการตรวจสอบว่าปุ่มเปลี่ยนเป็น Active แล้ว (มี class bg-blue-lighter)**
-    console.log(`กำลังตรวจสอบสถานะ Active ของปุ่ม "${currentSelectedChordTypeName}"...`);
-    await page.waitForFunction(
-        (buttonText) => {
-            // ค้นหาปุ่มทั้งหมดใน container ที่ถูกต้อง
-            const container = document.querySelector('div.text-center');
-            if (!container) return false;
-            const buttons = Array.from(container.querySelectorAll('button'));
-            const button = buttons.find(b => b.textContent.trim() === buttonText);
-            // ตรวจสอบว่าปุ่มนั้นมีอยู่จริงและมี class ที่บ่งบอกว่าเป็น active
-            return button && button.classList.contains('bg-blue-lighter');
-        },
-        currentSelectedChordTypeName, // ส่งชื่อปุ่มเข้าไปในฟังก์ชัน
-        { timeout: 5000 } // รอสูงสุด 5 วินาที
-    );
-    console.log(`ปุ่ม "${currentSelectedChordTypeName}" เปลี่ยนเป็น Active เรียบร้อยแล้ว`);
 
+    // **แก้ไข: รอ network request แทนการรอเปลี่ยนสีปุ่ม**
+    // เริ่มรอ network request ที่จะเกิดขึ้น *ก่อน* ที่จะสั่งคลิก
+    const responsePromise = page.waitForResponse(
+      response => response.url().includes('/chords/find/') && response.status() === 200,
+      { timeout: 10000 }
+    );
+
+    // สั่งคลิกปุ่ม
+    await chordTypeButtonLocator.click();
+
+    // รอให้ network request นั้นทำงานเสร็จ
+    await responsePromise;
+    console.log(`Network request สำหรับ "${currentSelectedChordTypeName}" สำเร็จแล้ว`);
+    
     console.log(`(ภายใน scrapeSpecificChord) คลิกเลือก Chord Type "${currentSelectedChordTypeName}" สำเร็จ`);
     await page.locator('div.fretboard.mt-2.m-auto.flex-col.fretboard-h').waitFor({ state: 'visible', timeout: 12000 });
     console.log('(ภายใน scrapeSpecificChord) Fretboard แสดงผลแล้ว');
-    await delay(1500);
+    await delay(1500); // รอให้ UI render ข้อมูลที่ได้จาก request
   } catch (error) {
     console.error(`(ภายใน scrapeSpecificChord) ขั้นตอนที่ 2 ไม่สำเร็จ (คลิก Chord Type "${targetChordType}"):`, error.message);
     console.warn(`อาจจะไม่มี Chord Type "${targetChordType}" สำหรับ Root Note "${currentSelectedRootNoteName}" บนหน้าเว็บ หรือชื่อไม่ตรง`);
@@ -94,13 +90,26 @@ async function scrapeSpecificChord(page, targetRootNote, targetChordType) {
             needsClick = false;
         }
     }
-    if (needsClick) {
+        if (needsClick) {
         console.log(`(ภายใน scrapeSpecificChord) กำลังคลิกปุ่มแพทเทิร์น ${variantNumberDisplay}...`);
         await currentVariantButtonLocator.scrollIntoViewIfNeeded();
-        await currentVariantButtonLocator.click();
-        console.log(`(ภายใน scrapeSpecificChord) คลิกปุ่มแพทเทิร์น ${variantNumberDisplay} สำเร็จ`);
+
+        await Promise.all([
+            // รอให้ปุ่มนี้มี class 'button-active'
+            page.waitForFunction(
+                (buttonElement) => {
+                    return buttonElement.classList.contains('button-active');
+                },
+                await currentVariantButtonLocator.elementHandle(), 
+                { timeout: 5000 }
+            ),
+            // สั่งคลิกปุ่ม
+            currentVariantButtonLocator.click()
+        ]);
+        
+        console.log(`(ภายใน scrapeSpecificChord) คลิกปุ่มแพทเทิร์น ${variantNumberDisplay} และยืนยันสถานะ Active สำเร็จ`);
     }
-    await delay(800);
+    await delay(500);
 
     const patternData = await page.evaluate(() => {
       const explicitNotes = [];
@@ -272,29 +281,29 @@ async function scrapeAllChordsAllTypes() {
     }
 
     // **แก้ไข: กำหนด Root Note ที่จะดึง (สำหรับทดลองแค่ "C")**
-     const rootNoteNamesToScrape = ['C']; 
-   // const rootNoteNamesToScrape = []; // ถ้าต้องการดึงทั้งหมด ให้ comment บรรทัดบน และ uncomment ส่วนดึง rootNoteNames ด้านล่าง
+    // const rootNoteNamesToScrape = ['C']; 
+    const rootNoteNamesToScrape = []; // ถ้าต้องการดึงทั้งหมด ให้ comment บรรทัดบน และ uncomment ส่วนดึง rootNoteNames ด้านล่าง
 
     // --- (ส่วนดึง Root Notes ทั้งหมด: ถ้าต้องการดึงทั้งหมดให้ uncomment ส่วนนี้) ---
     
     console.log("กำลังดึงรายชื่อ Root Notes ทั้งหมด...");
-    // try {
-    //     const rootNoteButtonsContainerSelector = 'div.flex.flex-wrap';
-    //     await page.waitForSelector(`${rootNoteButtonsContainerSelector} button`, { state: 'visible', timeout: 15000 });
-    //     const rootNoteButtonLocators = await page.locator(`${rootNoteButtonsContainerSelector} button`).all();
-    //     for (const locator of rootNoteButtonLocators) {
-    //         const name = (await locator.textContent()).trim();
-    //         if (name && name.length <= 2) {
-    //             rootNoteNamesToScrape.push(name);
-    //         }
-    //     }
-    //     console.log(`พบ Root Notes: ${rootNoteNamesToScrape.join(', ')}`);
-    //     if (rootNoteNamesToScrape.length === 0) throw new Error("ไม่พบ Root Notes");
-    // } catch (error) {
-    //     console.error(`ไม่สามารถดึงรายชื่อ Root Notes: ${error.message}`);
-    //     if (page && !page.isClosed()) await page.screenshot({ path: 'playwright_error_get_root_notes.png' });
-    //     throw error;
-    // }
+    try {
+        const rootNoteButtonsContainerSelector = 'div.flex.flex-wrap';
+        await page.waitForSelector(`${rootNoteButtonsContainerSelector} button`, { state: 'visible', timeout: 15000 });
+        const rootNoteButtonLocators = await page.locator(`${rootNoteButtonsContainerSelector} button`).all();
+        for (const locator of rootNoteButtonLocators) {
+            const name = (await locator.textContent()).trim();
+            if (name && name.length <= 2) {
+                rootNoteNamesToScrape.push(name);
+            }
+        }
+        console.log(`พบ Root Notes: ${rootNoteNamesToScrape.join(', ')}`);
+        if (rootNoteNamesToScrape.length === 0) throw new Error("ไม่พบ Root Notes");
+    } catch (error) {
+        console.error(`ไม่สามารถดึงรายชื่อ Root Notes: ${error.message}`);
+        if (page && !page.isClosed()) await page.screenshot({ path: 'playwright_error_get_root_notes.png' });
+        throw error;
+    }
     
 
     for (const currentRootNote of rootNoteNamesToScrape) { // **แก้ไข: ใช้ rootNoteNamesToScrape**

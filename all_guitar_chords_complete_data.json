@@ -189,21 +189,22 @@
         "notes": [
           {
             "fret": 0,
-            "string": 1
-          },
-          {
-            "fret": 0,
             "string": 3
           },
           {
             "fret": 1,
             "string": 2,
+            "label": "2"
+          },
+          {
+            "fret": 1,
+            "string": 4,
             "label": "1"
           },
           {
-            "fret": 2,
-            "string": 4,
-            "label": "2"
+            "fret": 3,
+            "string": 1,
+            "label": "4"
           },
           {
             "fret": 3,
@@ -243,50 +244,22 @@
             "label": "1"
           },
           {
-            "fret": 5,
+            "fret": 4,
             "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 5,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 5,
-            "string": 4,
             "label": "2"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 5,
-            "string": 2,
-            "label": "1"
           },
           {
             "fret": 5,
             "string": 3,
-            "label": "1"
+            "label": "4"
           },
           {
             "fret": 5,
             "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 8,
-            "string": 1,
-            "label": "4"
+            "label": "3"
           }
         ],
         "mutedStrings": [
-          5,
           6
         ]
       },
@@ -323,11 +296,6 @@
             "label": "1"
           },
           {
-            "fret": 9,
-            "string": 3,
-            "label": "2"
-          },
-          {
             "fret": 10,
             "string": 4,
             "label": "4"
@@ -347,14 +315,14 @@
             "label": "1"
           },
           {
-            "fret": 12,
+            "fret": 11,
             "string": 1,
-            "label": "3"
+            "label": "2"
           },
           {
             "fret": 12,
             "string": 3,
-            "label": "2"
+            "label": "3"
           },
           {
             "fret": 13,
@@ -376,9 +344,32 @@
             "string": 1
           },
           {
-            "fret": 0,
-            "string": 3
+            "fret": 1,
+            "string": 2,
+            "label": "1"
           },
+          {
+            "fret": 2,
+            "string": 4,
+            "label": "2"
+          },
+          {
+            "fret": 3,
+            "string": 3,
+            "label": "4"
+          },
+          {
+            "fret": 3,
+            "string": 5,
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          6
+        ]
+      },
+      {
+        "notes": [
           {
             "fret": 1,
             "string": 2,
@@ -391,87 +382,177 @@
           },
           {
             "fret": 3,
-            "string": 5,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 3,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 3,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 3,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 3,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 3,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 5,
-            "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 5,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 5,
-            "string": 4,
-            "label": "2"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 5,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 5,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 5,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 8,
             "string": 1,
             "label": "4"
+          },
+          {
+            "fret": 3,
+            "string": 3,
+            "label": "3"
           }
         ],
         "mutedStrings": [
           5,
           6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 1,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 2,
+            "string": 4,
+            "label": "2"
+          },
+          {
+            "fret": 3,
+            "string": 3,
+            "label": "4"
+          },
+          {
+            "fret": 3,
+            "string": 5,
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 3,
+            "string": 1,
+            "label": "1"
+          },
+          {
+            "fret": 3,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 3,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 3,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 3,
+            "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 5,
+            "string": 2,
+            "label": "4"
+          },
+          {
+            "fret": 5,
+            "string": 4,
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 5,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 5,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 5,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 6,
+            "string": 1,
+            "label": "2"
+          }
+        ],
+        "mutedStrings": [
+          5,
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 8,
+            "string": 1,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 9,
+            "string": 3,
+            "label": "2"
+          }
+        ],
+        "mutedStrings": [
+          5,
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 8,
+            "string": 2,
+            "label": "3"
+          },
+          {
+            "fret": 8,
+            "string": 4,
+            "label": "2"
+          },
+          {
+            "fret": 8,
+            "string": 6,
+            "label": "1"
+          },
+          {
+            "fret": 9,
+            "string": 3,
+            "label": "4"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          5
         ]
       },
       {
@@ -513,11 +594,6 @@
           },
           {
             "fret": 10,
-            "string": 4,
-            "label": "4"
-          },
-          {
-            "fret": 10,
             "string": 5,
             "label": "3"
           }
@@ -531,19 +607,47 @@
             "label": "1"
           },
           {
+            "fret": 11,
+            "string": 2,
+            "label": "2"
+          },
+          {
             "fret": 12,
             "string": 1,
-            "label": "3"
+            "label": "4"
           },
           {
             "fret": 12,
             "string": 3,
-            "label": "2"
-          },
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          5,
+          6
+        ]
+      },
+      {
+        "notes": [
           {
             "fret": 13,
             "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 14,
+            "string": 4,
+            "label": "2"
+          },
+          {
+            "fret": 15,
+            "string": 1,
             "label": "4"
+          },
+          {
+            "fret": 15,
+            "string": 3,
+            "label": "3"
           }
         ],
         "mutedStrings": [
@@ -5909,24 +6013,62 @@
       {
         "notes": [
           {
-            "fret": 2,
+            "fret": 1,
             "string": 2,
             "label": "1"
           },
           {
-            "fret": 2,
+            "fret": 1,
             "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 1,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 1,
+            "string": 5,
             "label": "1"
           },
           {
             "fret": 2,
             "string": 4,
+            "label": "2"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 1,
+            "string": 2,
             "label": "1"
           },
           {
-            "fret": 3,
-            "string": 1,
-            "label": "4"
+            "fret": 1,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 1,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 1,
+            "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 2,
+            "string": 4,
+            "label": "2"
           },
           {
             "fret": 3,
@@ -5934,9 +6076,74 @@
             "label": "3"
           },
           {
+            "fret": 4,
+            "string": 1,
+            "label": "4"
+          }
+        ],
+        "mutedStrings": [
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 3,
+            "string": 3,
+            "label": "2"
+          },
+          {
             "fret": 3,
             "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 4,
+            "string": 1,
+            "label": "3"
+          },
+          {
+            "fret": 5,
+            "string": 2,
+            "label": "4"
+          }
+        ],
+        "mutedStrings": [
+          4,
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 3,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 3,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 3,
+            "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 4,
+            "string": 1,
             "label": "2"
+          },
+          {
+            "fret": 5,
+            "string": 2,
+            "label": "3"
+          },
+          {
+            "fret": 6,
+            "string": 4,
+            "label": "4"
           }
         ],
         "mutedStrings": [
@@ -5951,19 +6158,19 @@
             "label": "1"
           },
           {
+            "fret": 5,
+            "string": 3,
+            "label": "1"
+          },
+          {
             "fret": 6,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 8,
             "string": 1,
-            "label": "4"
+            "label": "3"
           },
           {
-            "fret": 8,
+            "fret": 6,
             "string": 4,
-            "label": "3"
+            "label": "2"
           }
         ],
         "mutedStrings": [
@@ -5975,23 +6182,8 @@
         "notes": [
           {
             "fret": 8,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 8,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 8,
             "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 8,
-            "string": 5,
-            "label": "1"
+            "label": "2"
           },
           {
             "fret": 8,
@@ -6000,47 +6192,51 @@
           },
           {
             "fret": 9,
-            "string": 1,
-            "label": "3"
+            "string": 2,
+            "label": "4"
           },
           {
             "fret": 9,
             "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 10,
-            "string": 5,
-            "label": "4"
+            "label": "3"
           }
+        ],
+        "mutedStrings": [
+          1,
+          5
         ]
       },
       {
         "notes": [
           {
-            "fret": 9,
+            "fret": 8,
             "string": 1,
             "label": "1"
           },
           {
-            "fret": 9,
+            "fret": 8,
             "string": 2,
             "label": "1"
           },
           {
-            "fret": 9,
+            "fret": 8,
             "string": 3,
             "label": "1"
           },
           {
-            "fret": 10,
+            "fret": 8,
             "string": 4,
-            "label": "2"
+            "label": "1"
           },
           {
-            "fret": 11,
+            "fret": 9,
             "string": 2,
             "label": "3"
+          },
+          {
+            "fret": 9,
+            "string": 3,
+            "label": "2"
           }
         ],
         "mutedStrings": [
@@ -6051,50 +6247,34 @@
       {
         "notes": [
           {
-            "fret": 9,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 9,
+            "fret": 13,
             "string": 2,
             "label": "1"
           },
           {
-            "fret": 9,
+            "fret": 13,
             "string": 3,
             "label": "1"
           },
           {
-            "fret": 9,
+            "fret": 13,
             "string": 4,
             "label": "1"
           },
           {
-            "fret": 9,
+            "fret": 13,
             "string": 5,
             "label": "1"
           },
           {
-            "fret": 9,
-            "string": 6,
-            "label": "1"
-          },
-          {
-            "fret": 10,
+            "fret": 14,
             "string": 4,
-            "label": "3"
-          },
-          {
-            "fret": 10,
-            "string": 5,
             "label": "2"
-          },
-          {
-            "fret": 11,
-            "string": 2,
-            "label": "4"
           }
+        ],
+        "mutedStrings": [
+          1,
+          6
         ]
       }
     ],
@@ -6720,51 +6900,37 @@
             "label": "1"
           },
           {
-            "fret": 2,
+            "fret": 3,
             "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 4,
-            "label": "1"
+            "label": "4"
           },
           {
             "fret": 3,
-            "string": 3,
+            "string": 4,
             "label": "3"
           },
           {
             "fret": 3,
             "string": 5,
             "label": "2"
-          },
-          {
-            "fret": 5,
-            "string": 1,
-            "label": "4"
           }
         ],
         "mutedStrings": [
+          1,
           6
         ]
       },
       {
         "notes": [
           {
-            "fret": 5,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 5,
+            "fret": 6,
             "string": 2,
             "label": "1"
           },
           {
             "fret": 6,
             "string": 3,
-            "label": "2"
+            "label": "1"
           },
           {
             "fret": 8,
@@ -6778,39 +6944,36 @@
           }
         ],
         "mutedStrings": [
+          1,
           5
         ]
       },
       {
         "notes": [
           {
-            "fret": 8,
-            "string": 4,
+            "fret": 9,
+            "string": 1,
             "label": "1"
           },
           {
-            "fret": 8,
-            "string": 6,
-            "label": "T"
-          },
-          {
-            "fret": 9,
-            "string": 1,
+            "fret": 10,
+            "string": 3,
             "label": "3"
           },
           {
-            "fret": 9,
-            "string": 3,
+            "fret": 10,
+            "string": 4,
             "label": "2"
           },
           {
-            "fret": 10,
+            "fret": 11,
             "string": 2,
             "label": "4"
           }
         ],
         "mutedStrings": [
-          5
+          5,
+          6
         ]
       }
     ],
@@ -6818,33 +6981,33 @@
       {
         "notes": [
           {
-            "fret": 2,
+            "fret": 3,
+            "string": 1,
+            "label": "1"
+          },
+          {
+            "fret": 3,
             "string": 2,
             "label": "1"
           },
           {
-            "fret": 2,
+            "fret": 3,
             "string": 3,
             "label": "1"
           },
           {
-            "fret": 2,
+            "fret": 3,
             "string": 4,
             "label": "1"
           },
           {
             "fret": 3,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 3,
             "string": 5,
-            "label": "2"
+            "label": "1"
           },
           {
             "fret": 5,
-            "string": 1,
+            "string": 3,
             "label": "4"
           }
         ],
@@ -6855,65 +7018,78 @@
       {
         "notes": [
           {
-            "fret": 5,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 5,
+            "fret": 8,
             "string": 2,
             "label": "1"
           },
           {
-            "fret": 6,
+            "fret": 8,
             "string": 3,
-            "label": "2"
+            "label": "1"
           },
           {
             "fret": 8,
             "string": 4,
-            "label": "4"
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 5,
+            "label": "1"
           },
           {
             "fret": 8,
             "string": 6,
+            "label": "1"
+          },
+          {
+            "fret": 10,
+            "string": 1,
+            "label": "4"
+          },
+          {
+            "fret": 10,
+            "string": 3,
             "label": "3"
+          },
+          {
+            "fret": 10,
+            "string": 4,
+            "label": "2"
           }
-        ],
-        "mutedStrings": [
-          5
         ]
       },
       {
         "notes": [
           {
-            "fret": 8,
+            "fret": 10,
+            "string": 1,
+            "label": "1"
+          },
+          {
+            "fret": 10,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 10,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 10,
             "string": 4,
             "label": "1"
           },
           {
-            "fret": 8,
-            "string": 6,
-            "label": "T"
-          },
-          {
-            "fret": 9,
-            "string": 1,
-            "label": "3"
-          },
-          {
-            "fret": 9,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 10,
+            "fret": 13,
             "string": 2,
             "label": "4"
           }
         ],
         "mutedStrings": [
-          5
+          5,
+          6
         ]
       }
     ],
@@ -6921,102 +7097,57 @@
       {
         "notes": [
           {
-            "fret": 2,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 3,
-            "string": 3,
-            "label": "3"
-          },
-          {
             "fret": 3,
             "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 4,
+            "string": 4,
             "label": "2"
           },
           {
             "fret": 5,
-            "string": 1,
+            "string": 2,
+            "label": "4"
+          },
+          {
+            "fret": 5,
+            "string": 3,
             "label": "4"
           }
         ],
         "mutedStrings": [
+          1,
           6
         ]
       },
       {
         "notes": [
           {
-            "fret": 5,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 5,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 6,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 8,
-            "string": 4,
-            "label": "4"
-          },
-          {
             "fret": 8,
             "string": 6,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          5
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 8,
-            "string": 4,
             "label": "1"
-          },
-          {
-            "fret": 8,
-            "string": 6,
-            "label": "T"
-          },
-          {
-            "fret": 9,
-            "string": 1,
-            "label": "3"
           },
           {
             "fret": 9,
             "string": 3,
+            "label": "3"
+          },
+          {
+            "fret": 9,
+            "string": 5,
             "label": "2"
           },
           {
             "fret": 10,
-            "string": 2,
+            "string": 4,
             "label": "4"
           }
         ],
         "mutedStrings": [
-          5
+          1,
+          2
         ]
       }
     ],
@@ -7215,43 +7346,6 @@
       {
         "notes": [
           {
-            "fret": 1,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 1,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 1,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 2,
-            "label": "2"
-          },
-          {
-            "fret": 3,
-            "string": 4,
-            "label": "3"
-          },
-          {
-            "fret": 4,
-            "string": 5,
-            "label": "4"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
             "fret": 4,
             "string": 1,
             "label": "1"
@@ -7277,50 +7371,22 @@
             "label": "1"
           },
           {
-            "fret": 6,
+            "fret": 5,
             "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 6,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 6,
-            "string": 4,
             "label": "2"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 6,
-            "string": 2,
-            "label": "1"
           },
           {
             "fret": 6,
             "string": 3,
-            "label": "1"
+            "label": "4"
           },
           {
             "fret": 6,
             "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 1,
-            "label": "4"
+            "label": "3"
           }
         ],
         "mutedStrings": [
-          5,
           6
         ]
       },
@@ -7357,11 +7423,6 @@
             "label": "1"
           },
           {
-            "fret": 10,
-            "string": 3,
-            "label": "2"
-          },
-          {
             "fret": 11,
             "string": 4,
             "label": "4"
@@ -7381,14 +7442,14 @@
             "label": "1"
           },
           {
-            "fret": 13,
+            "fret": 12,
             "string": 1,
-            "label": "3"
+            "label": "2"
           },
           {
             "fret": 13,
             "string": 3,
-            "label": "2"
+            "label": "3"
           },
           {
             "fret": 14,
@@ -7406,81 +7467,95 @@
       {
         "notes": [
           {
-            "fret": 1,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 1,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 1,
-            "string": 3,
-            "label": "1"
-          },
-          {
             "fret": 2,
             "string": 2,
-            "label": "2"
+            "label": "1"
           },
           {
             "fret": 3,
             "string": 4,
-            "label": "3"
+            "label": "2"
+          },
+          {
+            "fret": 4,
+            "string": 3,
+            "label": "4"
           },
           {
             "fret": 4,
             "string": 5,
-            "label": "4"
+            "label": "3"
           }
         ],
         "mutedStrings": [
+          1,
           6
         ]
       },
       {
         "notes": [
           {
-            "fret": 4,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 4,
+            "fret": 2,
             "string": 2,
             "label": "1"
           },
           {
-            "fret": 4,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 6,
-            "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 6,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 6,
+            "fret": 3,
             "string": 4,
             "label": "2"
+          },
+          {
+            "fret": 4,
+            "string": 1,
+            "label": "4"
+          },
+          {
+            "fret": 4,
+            "string": 3,
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          5,
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 4,
+            "string": 1,
+            "label": "1"
+          },
+          {
+            "fret": 4,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 4,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 4,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 4,
+            "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 6,
+            "string": 2,
+            "label": "4"
+          },
+          {
+            "fret": 6,
+            "string": 4,
+            "label": "3"
           }
         ],
         "mutedStrings": [
@@ -7505,9 +7580,9 @@
             "label": "1"
           },
           {
-            "fret": 9,
+            "fret": 7,
             "string": 1,
-            "label": "4"
+            "label": "2"
           }
         ],
         "mutedStrings": [
@@ -7554,14 +7629,70 @@
           },
           {
             "fret": 11,
-            "string": 4,
-            "label": "4"
-          },
-          {
-            "fret": 11,
             "string": 5,
             "label": "3"
           }
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 9,
+            "string": 2,
+            "label": "3"
+          },
+          {
+            "fret": 9,
+            "string": 4,
+            "label": "2"
+          },
+          {
+            "fret": 9,
+            "string": 6,
+            "label": "1"
+          },
+          {
+            "fret": 10,
+            "string": 3,
+            "label": "4"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          5
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 9,
+            "string": 1,
+            "label": "1"
+          },
+          {
+            "fret": 9,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 9,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 9,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 10,
+            "string": 3,
+            "label": "2"
+          }
+        ],
+        "mutedStrings": [
+          5,
+          6
         ]
       },
       {
@@ -7572,19 +7703,19 @@
             "label": "1"
           },
           {
+            "fret": 12,
+            "string": 2,
+            "label": "2"
+          },
+          {
             "fret": 13,
             "string": 1,
-            "label": "3"
+            "label": "4"
           },
           {
             "fret": 13,
             "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 14,
-            "string": 2,
-            "label": "4"
+            "label": "3"
           }
         ],
         "mutedStrings": [
@@ -7598,16 +7729,6 @@
         "notes": [
           {
             "fret": 1,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 1,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 1,
             "string": 3,
             "label": "1"
           },
@@ -7615,19 +7736,12 @@
             "fret": 2,
             "string": 2,
             "label": "2"
-          },
-          {
-            "fret": 3,
-            "string": 4,
-            "label": "3"
-          },
-          {
-            "fret": 4,
-            "string": 5,
-            "label": "4"
           }
         ],
         "mutedStrings": [
+          1,
+          4,
+          5,
           6
         ]
       },
@@ -7635,24 +7749,24 @@
         "notes": [
           {
             "fret": 4,
-            "string": 1,
+            "string": 5,
             "label": "1"
           },
           {
-            "fret": 4,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 4,
+            "fret": 6,
             "string": 4,
-            "label": "1"
-          },
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "notes": [
           {
             "fret": 4,
             "string": 5,
@@ -7660,9 +7774,23 @@
           },
           {
             "fret": 6,
-            "string": 2,
-            "label": "4"
+            "string": 3,
+            "label": "3"
           },
+          {
+            "fret": 6,
+            "string": 4,
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          2,
+          6
+        ]
+      },
+      {
+        "notes": [
           {
             "fret": 6,
             "string": 3,
@@ -7675,33 +7803,8 @@
           }
         ],
         "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 6,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 6,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 6,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 1,
-            "label": "4"
-          }
-        ],
-        "mutedStrings": [
+          1,
+          2,
           5,
           6
         ]
@@ -7710,49 +7813,64 @@
         "notes": [
           {
             "fret": 9,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 9,
             "string": 6,
             "label": "1"
-          },
-          {
-            "fret": 10,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 11,
-            "string": 4,
-            "label": "4"
           },
           {
             "fret": 11,
             "string": 5,
             "label": "3"
           }
+        ],
+        "mutedStrings": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 9,
+            "string": 6,
+            "label": "1"
+          },
+          {
+            "fret": 11,
+            "string": 4,
+            "label": "3"
+          },
+          {
+            "fret": 11,
+            "string": 5,
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 11,
+            "string": 4,
+            "label": "3"
+          },
+          {
+            "fret": 11,
+            "string": 5,
+            "label": "2"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          2,
+          3,
+          6
         ]
       },
       {
@@ -7764,13 +7882,28 @@
           },
           {
             "fret": 13,
-            "string": 1,
+            "string": 3,
             "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          2,
+          5,
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 11,
+            "string": 4,
+            "label": "1"
           },
           {
             "fret": 13,
             "string": 3,
-            "label": "2"
+            "label": "3"
           },
           {
             "fret": 14,
@@ -7779,6 +7912,27 @@
           }
         ],
         "mutedStrings": [
+          1,
+          5,
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 13,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 14,
+            "string": 2,
+            "label": "2"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          4,
           5,
           6
         ]
@@ -84633,50 +84787,24 @@
       {
         "notes": [
           {
-            "fret": 0,
-            "string": 2
-          },
-          {
-            "fret": 0,
-            "string": 4
-          },
-          {
-            "fret": 1,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 1,
-            "string": 6,
-            "label": "1"
-          }
-        ],
-        "mutedStrings": [
-          1,
-          5
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 1,
-            "string": 3,
-            "label": "1"
-          },
-          {
             "fret": 2,
             "string": 5,
-            "label": "2"
+            "label": "1"
           },
           {
             "fret": 3,
             "string": 2,
-            "label": "4"
+            "label": "3"
           },
           {
             "fret": 3,
             "string": 4,
-            "label": "3"
+            "label": "2"
+          },
+          {
+            "fret": 4,
+            "string": 3,
+            "label": "4"
           }
         ],
         "mutedStrings": [
@@ -84687,102 +84815,23 @@
       {
         "notes": [
           {
-            "fret": 3,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 3,
+            "fret": 7,
             "string": 3,
             "label": "1"
           },
           {
-            "fret": 3,
+            "fret": 7,
             "string": 4,
             "label": "1"
           },
           {
-            "fret": 4,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 4,
-            "string": 6,
-            "label": "2"
-          }
-        ],
-        "mutedStrings": [
-          1,
-          5
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 4,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 5,
+            "fret": 7,
             "string": 5,
-            "label": "2"
-          },
-          {
-            "fret": 6,
-            "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 6,
-            "string": 4,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          1,
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 6,
-            "string": 2,
             "label": "1"
-          },
-          {
-            "fret": 6,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 6,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 7,
-            "string": 3,
-            "label": "3"
           },
           {
             "fret": 7,
             "string": 6,
-            "label": "2"
-          }
-        ],
-        "mutedStrings": [
-          1,
-          5
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 7,
-            "string": 3,
             "label": "1"
           },
           {
@@ -84792,140 +84841,13 @@
           },
           {
             "fret": 9,
-            "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 9,
             "string": 4,
             "label": "3"
           }
         ],
         "mutedStrings": [
           1,
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 9,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 10,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 10,
-            "string": 6,
-            "label": "2"
-          }
-        ],
-        "mutedStrings": [
-          1,
-          5
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 10,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 5,
-            "label": "2"
-          },
-          {
-            "fret": 12,
-            "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 12,
-            "string": 4,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          1,
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 12,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 12,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 12,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 13,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 13,
-            "string": 6,
-            "label": "2"
-          }
-        ],
-        "mutedStrings": [
-          1,
-          5
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 13,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 14,
-            "string": 5,
-            "label": "2"
-          },
-          {
-            "fret": 15,
-            "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 15,
-            "string": 4,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          1,
-          6
+          2
         ]
       }
     ],
@@ -84933,175 +84855,67 @@
       {
         "notes": [
           {
-            "fret": 0,
-            "string": 2
-          },
-          {
-            "fret": 0,
-            "string": 3
-          },
-          {
-            "fret": 5,
-            "string": 4,
+            "fret": 2,
+            "string": 5,
             "label": "1"
           },
-          {
-            "fret": 6,
-            "string": 5,
-            "label": "2"
-          },
-          {
-            "fret": 7,
-            "string": 6,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          1
-        ]
-      },
-      {
-        "notes": [
           {
             "fret": 3,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 4,
             "string": 2,
             "label": "3"
           },
           {
-            "fret": 4,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 5,
+            "fret": 3,
             "string": 4,
-            "label": "4"
-          }
-        ],
-        "mutedStrings": [
-          5,
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 4,
-            "string": 2,
-            "label": "1"
+            "label": "2"
           },
           {
             "fret": 4,
             "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 5,
-            "string": 4,
-            "label": "2"
-          },
-          {
-            "fret": 6,
-            "string": 5,
-            "label": "3"
-          },
-          {
-            "fret": 7,
-            "string": 6,
-            "label": "4"
-          }
-        ],
-        "mutedStrings": [
-          1
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 7,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 8,
-            "string": 2,
-            "label": "3"
-          },
-          {
-            "fret": 8,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 9,
-            "string": 4,
-            "label": "4"
-          }
-        ],
-        "mutedStrings": [
-          5,
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 11,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 12,
-            "string": 2,
-            "label": "3"
-          },
-          {
-            "fret": 12,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 13,
-            "string": 4,
-            "label": "4"
-          }
-        ],
-        "mutedStrings": [
-          5,
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 12,
-            "string": 2,
-            "label": "2"
-          },
-          {
-            "fret": 12,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 13,
-            "string": 4,
-            "label": "3"
-          },
-          {
-            "fret": 14,
-            "string": 5,
             "label": "4"
           }
         ],
         "mutedStrings": [
           1,
           6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 7,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 7,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 7,
+            "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 7,
+            "string": 6,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 5,
+            "label": "2"
+          },
+          {
+            "fret": 9,
+            "string": 4,
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          1,
+          2
         ]
       }
     ],
@@ -85401,22 +85215,70 @@
       {
         "notes": [
           {
-            "fret": 0,
-            "string": 2
+            "fret": 2,
+            "string": 1,
+            "label": "1"
           },
           {
-            "fret": 1,
+            "fret": 2,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 2,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 2,
             "string": 4,
             "label": "1"
           },
           {
             "fret": 2,
-            "string": 1,
+            "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 4,
+            "string": 3,
             "label": "3"
           },
           {
-            "fret": 3,
+            "fret": 4,
+            "string": 4,
+            "label": "2"
+          },
+          {
+            "fret": 5,
+            "string": 2,
+            "label": "4"
+          }
+        ],
+        "mutedStrings": [
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 4,
             "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 4,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 5,
+            "string": 2,
+            "label": "2"
+          },
+          {
+            "fret": 7,
+            "string": 1,
             "label": "4"
           }
         ],
@@ -85428,151 +85290,100 @@
       {
         "notes": [
           {
-            "fret": 2,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 6,
-            "label": "1"
-          },
-          {
-            "fret": 3,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 4,
-            "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 4,
-            "string": 4,
-            "label": "3"
-          }
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 2,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 3,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 4,
-            "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 4,
-            "string": 4,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 4,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 6,
-            "string": 1,
-            "label": "4"
-          },
-          {
-            "fret": 6,
-            "string": 5,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 6,
+            "fret": 7,
             "string": 1,
             "label": "1"
           },
           {
             "fret": 7,
             "string": 2,
-            "label": "2"
+            "label": "1"
           },
           {
-            "fret": 8,
+            "fret": 7,
             "string": 3,
-            "label": "3"
+            "label": "1"
+          },
+          {
+            "fret": 7,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 7,
+            "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 7,
+            "string": 6,
+            "label": "1"
+          },
+          {
+            "fret": 9,
+            "string": 3,
+            "label": "4"
           },
           {
             "fret": 9,
             "string": 4,
+            "label": "3"
+          },
+          {
+            "fret": 9,
+            "string": 5,
+            "label": "2"
+          }
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 7,
+            "string": 1,
+            "label": "1"
+          },
+          {
+            "fret": 7,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 9,
+            "string": 3,
+            "label": "4"
+          },
+          {
+            "fret": 9,
+            "string": 4,
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          5,
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 9,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 11,
+            "string": 3,
+            "label": "3"
+          },
+          {
+            "fret": 12,
+            "string": 1,
+            "label": "4"
+          },
+          {
+            "fret": 12,
+            "string": 2,
             "label": "4"
           }
         ],
@@ -85584,177 +85395,28 @@
       {
         "notes": [
           {
-            "fret": 7,
+            "fret": 11,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 12,
             "string": 2,
             "label": "2"
           },
           {
-            "fret": 7,
-            "string": 6,
-            "label": "1"
-          },
-          {
-            "fret": 8,
-            "string": 3,
+            "fret": 14,
+            "string": 4,
             "label": "4"
           },
           {
-            "fret": 8,
-            "string": 4,
+            "fret": 14,
+            "string": 5,
             "label": "3"
           }
         ],
         "mutedStrings": [
           1,
-          5
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 7,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 7,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 7,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 7,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 7,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 7,
-            "string": 6,
-            "label": "1"
-          },
-          {
-            "fret": 8,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 8,
-            "string": 4,
-            "label": "2"
-          },
-          {
-            "fret": 9,
-            "string": 5,
-            "label": "4"
-          }
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 9,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 1,
-            "label": "3"
-          },
-          {
-            "fret": 11,
-            "string": 2,
-            "label": "3"
-          },
-          {
-            "fret": 11,
-            "string": 3,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          5,
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 11,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 6,
-            "label": "1"
-          },
-          {
-            "fret": 13,
-            "string": 4,
-            "label": "3"
-          },
-          {
-            "fret": 14,
-            "string": 5,
-            "label": "4"
-          }
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 12,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 13,
-            "string": 4,
-            "label": "2"
-          },
-          {
-            "fret": 14,
-            "string": 1,
-            "label": "3"
-          },
-          {
-            "fret": 15,
-            "string": 3,
-            "label": "4"
-          }
-        ],
-        "mutedStrings": [
-          5,
           6
         ]
       }
@@ -88849,149 +88511,51 @@
       {
         "notes": [
           {
-            "fret": 0,
-            "string": 2
-          },
-          {
-            "fret": 1,
+            "fret": 2,
             "string": 3,
             "label": "2"
           },
           {
-            "fret": 1,
-            "string": 4,
+            "fret": 2,
+            "string": 5,
             "label": "1"
           },
           {
-            "fret": 2,
+            "fret": 3,
             "string": 1,
             "label": "4"
+          },
+          {
+            "fret": 3,
+            "string": 2,
+            "label": "3"
           }
         ],
         "mutedStrings": [
-          5,
+          4,
           6
         ]
       },
       {
         "notes": [
-          {
-            "fret": 2,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 1,
-            "label": "3"
-          },
-          {
-            "fret": 4,
-            "string": 2,
-            "label": "3"
-          },
-          {
-            "fret": 4,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 4,
-            "string": 4,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 4,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 4,
-            "label": "1"
-          }
-        ],
-        "mutedStrings": [
-          5,
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 4,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 6,
-            "label": "1"
-          },
-          {
-            "fret": 6,
-            "string": 5,
-            "label": "3"
-          }
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 6,
-            "string": 4,
-            "label": "1"
-          },
           {
             "fret": 7,
-            "string": 2,
+            "string": 3,
             "label": "3"
           },
           {
             "fret": 7,
-            "string": 6,
+            "string": 4,
             "label": "2"
+          },
+          {
+            "fret": 7,
+            "string": 6,
+            "label": "1"
           },
           {
             "fret": 8,
-            "string": 3,
+            "string": 2,
             "label": "4"
           }
         ],
@@ -89003,165 +88567,28 @@
       {
         "notes": [
           {
-            "fret": 6,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 7,
-            "string": 1,
-            "label": "3"
-          },
-          {
-            "fret": 7,
-            "string": 2,
-            "label": "2"
-          },
-          {
-            "fret": 8,
+            "fret": 14,
             "string": 3,
-            "label": "4"
-          }
-        ],
-        "mutedStrings": [
-          5,
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 7,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 8,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 9,
-            "string": 2,
-            "label": "4"
-          },
-          {
-            "fret": 9,
-            "string": 4,
-            "label": "3"
-          },
-          {
-            "fret": 9,
-            "string": 5,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 9,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 1,
-            "label": "4"
-          },
-          {
-            "fret": 11,
-            "string": 3,
-            "label": "3"
-          }
-        ],
-        "mutedStrings": [
-          5,
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 11,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 6,
-            "label": "1"
-          },
-          {
-            "fret": 12,
-            "string": 2,
-            "label": "2"
-          },
-          {
-            "fret": 13,
-            "string": 4,
-            "label": "3"
-          }
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 12,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 13,
-            "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 13,
-            "string": 4,
             "label": "2"
           },
           {
             "fret": 14,
+            "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 15,
             "string": 1,
             "label": "4"
+          },
+          {
+            "fret": 15,
+            "string": 2,
+            "label": "3"
           }
         ],
         "mutedStrings": [
-          5,
+          4,
           6
         ]
       }
@@ -89170,157 +88597,42 @@
       {
         "notes": [
           {
-            "fret": 1,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 2,
-            "string": 1,
-            "label": "3"
-          },
-          {
-            "fret": 2,
-            "string": 2,
-            "label": "3"
-          },
-          {
             "fret": 2,
             "string": 3,
-            "label": "3"
-          },
-          {
-            "fret": 2,
-            "string": 5,
             "label": "2"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 4,
-            "string": 2,
-            "label": "1"
           },
           {
-            "fret": 4,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 4,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 4,
+            "fret": 2,
             "string": 5,
             "label": "1"
           },
           {
-            "fret": 5,
+            "fret": 3,
             "string": 1,
-            "label": "2"
-          }
-        ],
-        "mutedStrings": [
-          6
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 6,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 6,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 6,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 7,
-            "string": 2,
             "label": "4"
           },
           {
-            "fret": 7,
-            "string": 4,
-            "label": "3"
-          },
-          {
-            "fret": 7,
-            "string": 6,
-            "label": "2"
-          }
-        ],
-        "mutedStrings": [
-          1
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 6,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 7,
-            "string": 1,
-            "label": "3"
-          },
-          {
-            "fret": 7,
+            "fret": 3,
             "string": 2,
             "label": "3"
-          },
-          {
-            "fret": 7,
-            "string": 4,
-            "label": "2"
-          },
-          {
-            "fret": 7,
-            "string": 6,
-            "label": "T"
           }
         ],
         "mutedStrings": [
-          5
+          4,
+          6
         ]
       },
       {
         "notes": [
           {
             "fret": 7,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 7,
             "string": 3,
-            "label": "1"
+            "label": "3"
           },
           {
             "fret": 7,
             "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 7,
-            "string": 5,
-            "label": "1"
+            "label": "2"
           },
           {
             "fret": 7,
@@ -89329,122 +88641,40 @@
           },
           {
             "fret": 8,
-            "string": 3,
-            "label": "2"
-          },
-          {
-            "fret": 9,
-            "string": 1,
-            "label": "4"
-          },
-          {
-            "fret": 9,
-            "string": 5,
-            "label": "3"
-          }
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 9,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 5,
-            "label": "1"
-          },
-          {
-            "fret": 9,
-            "string": 6,
-            "label": "1"
-          },
-          {
-            "fret": 10,
             "string": 2,
-            "label": "2"
-          },
-          {
-            "fret": 11,
-            "string": 1,
-            "label": "4"
-          },
-          {
-            "fret": 11,
-            "string": 3,
-            "label": "3"
-          }
-        ]
-      },
-      {
-        "notes": [
-          {
-            "fret": 11,
-            "string": 1,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 2,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 3,
-            "label": "1"
-          },
-          {
-            "fret": 11,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 12,
-            "string": 2,
-            "label": "2"
-          },
-          {
-            "fret": 14,
-            "string": 3,
             "label": "4"
           }
         ],
         "mutedStrings": [
-          5,
-          6
+          1,
+          5
         ]
       },
       {
         "notes": [
           {
-            "fret": 13,
-            "string": 4,
-            "label": "1"
-          },
-          {
-            "fret": 14,
-            "string": 1,
-            "label": "3"
-          },
-          {
-            "fret": 14,
-            "string": 2,
-            "label": "3"
-          },
-          {
             "fret": 14,
             "string": 3,
-            "label": "3"
+            "label": "2"
           },
           {
             "fret": 14,
             "string": 5,
-            "label": "2"
+            "label": "1"
+          },
+          {
+            "fret": 15,
+            "string": 1,
+            "label": "4"
+          },
+          {
+            "fret": 15,
+            "string": 2,
+            "label": "3"
           }
         ],
         "mutedStrings": [
+          4,
           6
         ]
       }
