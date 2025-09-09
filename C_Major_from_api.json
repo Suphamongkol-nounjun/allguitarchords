@@ -1,0 +1,198 @@
+{
+  "chords": {
+    "C_Major": [
+      {
+        "notes": [
+          {
+            "fret": 0,
+            "string": 1
+          },
+          {
+            "fret": 0,
+            "string": 3
+          },
+          {
+            "fret": 1,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 2,
+            "string": 4,
+            "label": "2"
+          },
+          {
+            "fret": 3,
+            "string": 5,
+            "label": "3"
+          }
+        ],
+        "mutedStrings": [
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 3,
+            "string": 1,
+            "label": "1"
+          },
+          {
+            "fret": 3,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 3,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 3,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 3,
+            "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 5,
+            "string": 2,
+            "label": "4"
+          },
+          {
+            "fret": 5,
+            "string": 3,
+            "label": "3"
+          },
+          {
+            "fret": 5,
+            "string": 4,
+            "label": "2"
+          }
+        ],
+        "mutedStrings": [
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 5,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 5,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 5,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 5,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 1,
+            "label": "4"
+          }
+        ],
+        "mutedStrings": [
+          5,
+          6
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 8,
+            "string": 1,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 2,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 3,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 5,
+            "label": "1"
+          },
+          {
+            "fret": 8,
+            "string": 6,
+            "label": "1"
+          },
+          {
+            "fret": 9,
+            "string": 3,
+            "label": "2"
+          },
+          {
+            "fret": 10,
+            "string": 4,
+            "label": "4"
+          },
+          {
+            "fret": 10,
+            "string": 5,
+            "label": "3"
+          }
+        ]
+      },
+      {
+        "notes": [
+          {
+            "fret": 10,
+            "string": 4,
+            "label": "1"
+          },
+          {
+            "fret": 12,
+            "string": 1,
+            "label": "3"
+          },
+          {
+            "fret": 12,
+            "string": 3,
+            "label": "2"
+          },
+          {
+            "fret": 13,
+            "string": 2,
+            "label": "4"
+          }
+        ],
+        "mutedStrings": [
+          5,
+          6
+        ]
+      }
+    ]
+  }
+}
